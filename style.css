@@ -14,3 +14,7 @@ a { color: var(--accent); }
 .app { display:flex; gap:16px; align-items:center; }
 .app img { width:72px; height:72px; border-radius:16px; }
 footer { color: var(--muted); font-size: .85rem; margin-top: 40px; }
+.store { display:flex; flex-wrap:wrap; gap:8px; margin: 8px 0 4px; }
+.store a { display:inline-flex; align-items:center; gap:6px; padding: 6px 14px; border-radius: 999px; background: var(--ink); color:#fff; text-decoration:none; font-size: .85rem; font-weight: 600; }
+.store a:hover { opacity: .85; }
+.app + .app { margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--line); }
